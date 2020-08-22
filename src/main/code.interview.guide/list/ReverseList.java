@@ -1,7 +1,7 @@
 package list;
 
 public class ReverseList {
-    public ListNode ReList(ListNode head){
+    public ListNode reList(ListNode head){
         if(head == null||head.next == null) return head;
         ListNode prehead = head;
         ListNode tempnext = null;
