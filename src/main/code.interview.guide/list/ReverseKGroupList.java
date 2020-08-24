@@ -8,7 +8,7 @@ public class ReverseKGroupList {
         ListNode nexthead;
         ListNode prehead = preres;
         nexthead = head;
-        while(nexthead!= null){
+        while (nexthead != null) {
             int temp = k;
             while (nexthead != null && temp > 0) {
                 nexthead = nexthead.next;
@@ -27,7 +27,7 @@ public class ReverseKGroupList {
 
     public void reList(ListNode prehead, ListNode head, ListNode nexthead){
         ListNode tempnext;
-        while (head.next!=nexthead) {
+        while (head.next != nexthead) {
             tempnext = head.next;
             head.next = tempnext.next;
             tempnext.next = prehead.next;
