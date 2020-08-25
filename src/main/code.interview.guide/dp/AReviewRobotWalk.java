@@ -2,7 +2,7 @@ package dp;
 /**
  * 矩阵压缩的话，涉及到元素变动，会更改原来的状态值，需要用一个元素将其存储起来。
  * */
-public class ReviewRobotWalk {
+public class AReviewRobotWalk {
     public static void main(String[] args) {
         System.out.println(HelpWalk(5,2,3,3));
         System.out.println(HelpWalk2(5,2,3,3));

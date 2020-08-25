@@ -3,7 +3,7 @@ package dp;
  *  初始化错误：初始状态应该是一个叠加状态。
  *  迭代公式错误：迭代公式没有加上当前的点。
  * */
-public class ReviewMiniPathSum {
+public class AReviewMiniPathSum {
     public static void main(String[] args) {
         int[][] m = {{1,3,5,9}};
         for(int i = 0; i < m.length; i++){

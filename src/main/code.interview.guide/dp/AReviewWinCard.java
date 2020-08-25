@@ -3,7 +3,7 @@ package dp;
  * 递归是自顶向下，存在重复计算的步骤。动态规划是自底向下。一般递归都可以用动态规划来求解，通过用DP状态来存储中间的计算值。
  * 存储状态不一定要在一个状态存储介质里。可以是存储两个状态。在两个状态中相互利用，进行相互的状态转换。
  * */
-public class ReviewWinCard {
+public class AReviewWinCard {
     public static void main(String[] args) {
         int[] nums = {100,2,4,31,5,3,46,32,67,23,57,12};
         System.out.println(win(nums));

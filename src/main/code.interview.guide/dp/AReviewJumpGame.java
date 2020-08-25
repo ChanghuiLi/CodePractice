@@ -1,6 +1,6 @@
 package dp;
 
-public class ReviewJumpGame {
+public class AReviewJumpGame {
     public static void main(String[] args) {
         int[] nums = {3,2,3,1,1,4};
         System.out.println(Jump(nums));
