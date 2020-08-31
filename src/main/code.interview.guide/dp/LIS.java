@@ -13,7 +13,7 @@ public class LIS {
          for(int i = 1; i < nums.length; i++){
              temp = 1;
              for(int j = i-1; j >= 0; j--){
-                 if (nums[i] > nums[j]){
+                 if (nums[i] > nums[j]) {
                      temp = Math.max(temp, dp[j] + 1);
                  }
              }
