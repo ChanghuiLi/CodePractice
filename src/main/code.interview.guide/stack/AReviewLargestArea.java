@@ -6,7 +6,7 @@ import java.util.Stack;
  * 需要注意的点：Stack==null的时候特殊情况处理。
  * 计算的时候需要找到左右两边两个端点。
  * */
-public class ReviewLargestArea {
+public class AReviewLargestArea {
     public static void main(String[] args) {
         int[] nums = {5,4,2,1};
         System.out.println(largestRectangleArea(nums));

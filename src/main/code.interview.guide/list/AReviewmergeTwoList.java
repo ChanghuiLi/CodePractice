@@ -2,7 +2,7 @@ package list;
 /** 链表合并
  *
  * */
-public class ReviewmergeTwoList {
+public class AReviewmergeTwoList {
     public ListNode mergelist(ListNode l1, ListNode l2){
         if(l1 == null) return l2;
         if(l2 == null) return l1;

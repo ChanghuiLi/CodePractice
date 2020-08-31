@@ -9,7 +9,7 @@ import java.util.Queue;
  *  栈里面存的不一定要是数组的元素，也可以是数组的下标。
  *  LinkedList的使用方法；
  * */
-public class ReviewGetMaxWindow {
+public class AReviewGetMaxWindow {
     public int[] getmax(int[] nums,int w) {
         if(nums == null||w > nums.length) return null;
         int[] res = new int[nums.length-w+1];

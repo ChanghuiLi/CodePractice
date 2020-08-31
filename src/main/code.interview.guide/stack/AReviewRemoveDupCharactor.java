@@ -2,7 +2,7 @@ package stack;
 
 import java.util.Stack;
 
-public class ReviewRemoveDupCharactor {
+public class AReviewRemoveDupCharactor {
     public String removeDuplicateLetters(String s) {
         Stack<Character> stack= new Stack<Character>();
         for(int i = 0;i < s.length(); i++){
