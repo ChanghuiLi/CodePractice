@@ -18,6 +18,7 @@ public class LRUCache {
                 this.remain --;
             } else {
                 removeOld();
+                map.put(key,value);
             }
         }
 
