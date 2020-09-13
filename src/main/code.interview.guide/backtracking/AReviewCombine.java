@@ -10,7 +10,7 @@ public class AReviewCombine {
     public List<List<Integer>> combine(int n, int k) {
         if (n <= 0 || k <= 0) return res;
         List<Integer> list = new ArrayList<Integer>();
-        process(list, n, 1,k);
+        process(list, n, 1, k);
         return res;
     }
 
@@ -26,4 +26,25 @@ public class AReviewCombine {
             }
         }
     }
+    public List<List<Integer>> combine2(int n, int k) {
+        if (n <= 0 || k <= 0) return res;
+        List<Integer> list = new ArrayList<Integer>();
+        process2(list, n, 1, k);
+        return res;
+    }
+
+    private void process2(List<Integer> list, int end, int start, int k) {
+        if (k == 0) {
+            res.add(new ArrayList<Integer>(list));
+            return;
+        } else {
+            for (int i = start; i <= end; i++) {
+                list.add(i);
+                process(list,end,start+1,k-1);
+                list.remove(list.size()-1);
+            }
+        }
+    }
+
+
 }
