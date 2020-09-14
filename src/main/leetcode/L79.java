@@ -12,7 +12,7 @@ public class L79 {
         }
         return false;
     }
-
+    // 递归的边界条件判定在开始的时候统一判定，不需要后续每次递归的时候进行定义。
     private boolean process(char[][] board, boolean[][] visited, String word,int wordSearch, int row, int col) {
         if (row < 0 || row >= board.length || col < 0 || col >= board[0].length
                 || visited[row][col] == true || wordSearch > word.length()

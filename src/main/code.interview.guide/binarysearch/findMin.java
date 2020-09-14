@@ -8,7 +8,6 @@ public class findMin {
         int end = nums.length-1;
         if (nums[start] < nums[end]) return start;
         if (nums.length == 1) return 0;
-
         int mid = 0;
         while (start <= end) {
             mid = (start + end) / 2;
